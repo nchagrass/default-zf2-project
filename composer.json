@@ -1,0 +1,9 @@
+{
+    "name": "nchagrass/default-zf2-project",
+    "description": "Default project application for ZF2+PHPUnit",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": ">2.2.0rc1",
+	"phpunit/phpunit": "3.7.*"
+    }
+}
