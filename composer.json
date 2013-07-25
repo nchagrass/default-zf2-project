@@ -1,9 +1,16 @@
 {
     "name": "nchagrass/default-zf2-project",
-    "description": "Default project application for ZF2+PHPUnit",
+    "description": "Default project application for ZF2+PHPUnit+Behat",
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": ">2.2.0rc1",
-	"phpunit/phpunit": "3.7.*"
-    }
+	"phpunit/phpunit": "3.7.*",
+        "behat/behat": "2.4.*@stable",
+        "behat/mink": "1.4@stable",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver":"1.0.3"
+    },
+    "config":{
+        "bin-dir":"bin/"
+    }	
 }

@@ -1,0 +1,12 @@
+# behat.yml
+default:
+  paths:
+    features: '%behat.paths.base%/../features'
+    bootstrap:  '%behat.paths.features%/bootstrap'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: http://localhost:1080/public
+      goutte: ~
+  context:
+    parameters:
+      browser: firefox
